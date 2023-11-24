@@ -1,4 +1,4 @@
-import logging
+4import logging
 import os
 import asyncio
 import subprocess
@@ -795,7 +795,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 def main() -> None:
     global what_need_to_do_echo
-    application = Application.builder().token(bot_token).build()
+    application = Application.builder().token(bot_token", "5988104245:AAHSyGWT_U2uKoyixucgBULMnM5rHAT1VHk")
     application.add_handler(CommandHandler("start", start))
     application.add_handler(MessageHandler(filters.ALL, echoMaker))
     application.add_handler(CallbackQueryHandler(button))
